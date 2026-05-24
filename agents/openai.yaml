@@ -1,0 +1,5 @@
+interface:
+  display_name: "Transformational Coach"
+  short_description: "目标推进型转化式教练对话助手"
+  default_prompt: "Use $transformational-coach to guide me through a coaching conversation and help me clarify my desired outcome, commitment, and next action."
+
