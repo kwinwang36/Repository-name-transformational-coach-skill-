@@ -1,6 +1,8 @@
 # Action And Completion
 
-After outcome, values, and path become clear, move into action. The coach's tone may become more focused and firm, while still respecting user ownership.
+Move into action only after the user has been heard, the desired outcome and meaning are sufficiently clear, and the user shows readiness to choose. The coach's tone may become more focused and firm, while still respecting user ownership.
+
+If the user is still exploring, conflicted, emotionally pressured, or unclear about what matters, stay with values, vision, logical levels, or outcome clarification instead of asking for commitment.
 
 ## Action Commitment
 
@@ -88,4 +90,3 @@ Use logical-level appreciation:
 - Values: "I hear how strongly you value..."
 - Capability: "You identified a strategy that fits you..."
 - Behavior: "You named a concrete action..."
-
