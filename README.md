@@ -1,8 +1,13 @@
 # Transformational Coach Skill
 
-A Codex skill for outcome-oriented transformational coaching conversations.
+A portable transformational coaching method with a Codex skill adapter.
 
-This skill helps Codex act as a coach rather than an advice-giver. It guides users through rapport, contract setting, outcome clarification, values exploration, logical levels, commitment, action design, and completion.
+This skill helps an AI assistant act as a coach rather than an advice-giver. It guides users through rapport, contract setting, outcome clarification, values exploration, logical levels, commitment, action design, and completion.
+
+The folder now has two layers:
+
+- `UNIVERSAL_PROMPT.md`: the platform-neutral core prompt. Use this in Claude, ChatGPT, Gemini, local agents, or any assistant that accepts custom instructions.
+- `SKILL.md`: the Codex adapter, so the same method still works as a local Codex skill.
 
 ## What It Helps With
 
@@ -13,7 +18,15 @@ This skill helps Codex act as a coach rather than an advice-giver. It guides use
 - Making career or life choices
 - Turning complaints into desired outcomes and controllable next steps
 
-## Install
+## Universal Use
+
+Use `UNIVERSAL_PROMPT.md` as the main instruction in any AI tool. If the tool supports project knowledge, files, or retrieval, also add the `references/` folder.
+
+For Claude, see `CLAUDE.md`.
+
+For platform-specific setup details, see `PLATFORM_GUIDE.md`.
+
+## Codex Install
 
 Download this repository and place the folder in your Codex skills directory.
 
@@ -44,7 +57,7 @@ transformational-coach/
 
 Restart Codex or start a new conversation after installing.
 
-## Usage
+## Codex Usage
 
 Invoke the skill explicitly:
 
@@ -64,5 +77,6 @@ $transformational-coach 我有一个三个月瘦身目标，但总是被事情�
 
 ## Notes
 
-The skill uses a lightweight `SKILL.md` entry point and a richer `references/` layer. The complete source reading notes are preserved in `references/00-source-reading-notes.md` for deeper use and future extension.
+There is no single skill file that every AI platform automatically recognizes. The portable part is the coaching prompt and reference material; each platform needs a small adapter or setup step.
 
+The complete source reading notes are preserved in `references/00-source-reading-notes.md` for deeper use and future extension.
